@@ -167,12 +167,18 @@ ul {
     content: '';
     position: absolute;
     height: 4px;
+    display: block;
     background-color: var(--title-text-color);
     bottom: -1px;
     width: 100%;
     border-radius: 2px;
     right: 0;
     
+}
+
+.current {
+    position: relative;
+    color: var(--title-text-color);
 }
 
 
